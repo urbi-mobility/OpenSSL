@@ -205,7 +205,7 @@ if [ ! -f "${SCRIPT_DIR}/openssl-${OPENSSL_VERSION}.tar.gz" ]; then
 fi
 
 build_ios
-build_macos
+#build_macos
 
 ${SCRIPT_DIR}/create-framework.sh
 
